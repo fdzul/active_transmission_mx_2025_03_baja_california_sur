@@ -19,10 +19,19 @@ library(magrittr)
 
 ::: panel-tabset
 ### [**La Paz**]{style="color:#990000"}
-```{r}
+```{r chain_paz}
 denhotspots::transmission_chains_map(geocoded_dataset = z,
                                      cve_edo = "03",
                                      locality = "La Paz",
+                                     dengue_cases = "Probable")
+```
+
+
+### [**Cabo San Lucas**]{style="color:#990000"}
+```{r chain_cabos_san_lucas}
+denhotspots::transmission_chains_map(geocoded_dataset = z,
+                                     cve_edo = "03",
+                                     locality = "Cabo San Lucas",
                                      dengue_cases = "Probable")
 ```
 
