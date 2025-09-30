@@ -79,6 +79,7 @@ densnv::mp_heatmap(geocoded_dataset = z,
                    map_type = NULL,
                    alpha = 0.6,
                    static = FALSE,
+                    save = FALSE,
                    palette = viridis::turbo)
 ```
 
@@ -95,6 +96,7 @@ densnv::mp_heatmap(geocoded_dataset = z,
                    map_type = NULL,
                    alpha = 0.6,
                    static = FALSE,
+                    save = FALSE,
                    palette = viridis::turbo)
 ```
 
@@ -112,6 +114,7 @@ densnv::mp_heatmap(geocoded_dataset = z,
                    map_type = NULL,
                    alpha = 0.6,
                    static = FALSE,
+                    save = FALSE,
                    palette = viridis::turbo)
 ```
 
