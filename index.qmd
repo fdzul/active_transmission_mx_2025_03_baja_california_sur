@@ -55,6 +55,15 @@ denhotspots::space_time_link_map(x = x,
                                  maptype = "interactive_map")
 ```
 
+### [**San José Los Cabos**]{style="color:#990000"}
+
+```{r chain_san_jose_los_cabos}
+denhotspots::transmission_chains_map(geocoded_dataset = z,
+                                     cve_edo = "03",
+                                     locality = "San Jose Los Cabos",
+                                     dengue_cases = "Probable")
+```
+
 
 ### [**Cabo San Lucas**]{style="color:#990000"}
 ```{r chain_cabos_san_lucas}
@@ -73,7 +82,7 @@ denhotspots::transmission_chains_map(geocoded_dataset = z,
 ::: panel-tabset
 ### [**La Paz**]{style="color:#990000"}
 
-```{r}
+```{r heatmap_la_paz}
 densnv::mp_heatmap(geocoded_dataset = z,
                    cve_edo = "03",
                    locality = "La Paz",
@@ -90,7 +99,7 @@ densnv::mp_heatmap(geocoded_dataset = z,
 
 ### [**San José Los Cabos**]{style="color:#990000"}
 
-```{r}
+```{r heatmap_sn_jose_los_cabos}
 densnv::mp_heatmap(geocoded_dataset = z,
                    cve_edo = "03",
                    locality = "San Jose Los cabos",
@@ -108,7 +117,7 @@ densnv::mp_heatmap(geocoded_dataset = z,
 
 ### [**Cabo San Lucas**]{style="color:#990000"}
 
-```{r}
+```{r heatmap_cabo_san_lucas}
 densnv::mp_heatmap(geocoded_dataset = z,
                    cve_edo = "03",
                    locality = "Cabo San Lucas",
